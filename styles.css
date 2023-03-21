@@ -1,0 +1,90 @@
+.social-media-follow-icons{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  align-self: center;
+}
+
+.social-media-follow-icons img{
+   height: 25px;
+  padding: 10px;
+}
+
+.searchbar{
+  flex:1;
+  align-self: center;
+  width: 350px;
+}
+.social-media-follow-icons{
+  width: 250px;
+}
+.navigation{
+  display: flex;
+  height:100px;
+  justify-content: space-between;
+  background-color: lavenderblush;
+}
+h1{
+  font-family: 'caveat',Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: beige;
+  font-size: 50px;
+  margin:0px;
+  border:0px;
+  animation-name: animate-header;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+h2{
+ 
+  margin: 0px;
+  border: 0px;
+  font-family: 'caveat', Courier, monospace;
+}
+@keyframes animate-header {
+  from {
+   left:800px;
+  }
+  to{
+    left: 0px;
+  }
+}
+.favtrip{
+    margin: 25px 100px;
+ }
+ .favtrip img{
+  height: 500px; 
+    width: 500px;
+ }
+ .list{
+  width:300px;
+  
+  animation: lists;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+ }
+ @keyframes lists {
+  from{left:1000px;}
+  to{left:0px;}
+  
+}
+
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+main{
+  animation: bg-color;
+  animation-duration: 2s;
+  background-color: azure ;
+  animation-iteration-count: infinite;
+  
+  
+}
+@keyframes bg-color {
+ from{ background-color: rgb(249, 206, 212);}
+ to{background-color: rgb(239, 206, 239);}
+  
+}
+ 
